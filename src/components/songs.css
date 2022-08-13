@@ -1,0 +1,20 @@
+.musicCards:hover {
+    transform: scale(1.1);
+}
+
+.music__img {
+    height: 260px;
+    width: 260px;
+}
+
+.musicCards__title {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    margin: 8px 0px;
+}
+
+.musicCards__text {
+    color: #CCC3C3;
+    font-family: 'Rubik', sans-serif;
+}
