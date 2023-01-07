@@ -46,7 +46,7 @@ function App() {
     contInterval.current += 1;
 
     intervalProgress = setInterval(() => {
-      console.log('contando...');
+      // console.log('contando...');
 
       if (contInterval.current % 2 === 0) {
         clearInterval(intervalProgress);
@@ -76,7 +76,7 @@ function App() {
     contInterval.current += 1;
 
     if (contInterval.current % 2 === 0) {
-      console.log('par');
+      // console.log('par');
     }
 
 
@@ -86,8 +86,6 @@ function App() {
 
     localState = true;
 
-
-    // clearInterval(intervalProgress);
     setBtnState(localState);
 
   }
@@ -180,11 +178,12 @@ function App() {
             </div>
             <div className='timeArea'>
               <span>0</span>
+
               <div className='container-bar'>
                 <div className='timeBar'></div>
                 <div className='timeBar-color' ref={progresRef}></div>
-
               </div>
+
               <span>3:34</span>
             </div>
           </div>
