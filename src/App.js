@@ -138,7 +138,7 @@ function App() {
             <img src={logo} alt='Logo da Cubos' />
             <div className='container__welcome'>
               <img className='welcome__photo' src={profile} alt='Foto de perfil' />
-              <h3>Seja bem vindo(a).</h3>
+              <h3>Seja bem vindo (a).</h3>
             </div>
           </div>
         </div>
